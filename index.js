@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Route to handle the default page
 app.get('/', function(request, response) {
-  response.send('Hello from IBA MTL4');
+  response.send('Hello from IBA MTL4 new one');
 });
 
 // Listen on all interfaces (0.0.0.0), not just localhost
